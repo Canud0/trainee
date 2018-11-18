@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="340dp"
+        android:layout_height="248dp"
+        app:srcCompat="@mipmap/ic_launcher_foreground"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <Button
+        android:id="@+id/butest"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Estagiário"
+        android:textColor="@color/azul"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <Button
+        android:id="@+id/butemp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Empregador"
+        android:textColor="@color/azul"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deseja falar Conosco?"
+        android:textColor="@color/branco"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRAINEE"
+        android:textColor="@color/branco"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="30dp" />
+</android.support.constraint.ConstraintLayout>
